@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import TopBackground from "./home_sub_components/top_background";
 import SearchBar from "./home_sub_components/search_bar";
@@ -76,7 +77,7 @@ function HomePage(props) {
     e.preventDefault();
     const searchInput = document.querySelector(".search-input");
     const searchValue = searchInput.value;
-    if (searchValue.trim() == "") {
+    if (searchValue.trim() === "") {
       setCategory("none");
       setCurrentProducts(allProducts);
     } else {
@@ -119,8 +120,8 @@ function HomePage(props) {
       <div style={{ height: "12vh" }}></div>
       <PaginationBand
         callback={changePage}
-        firstPage={page == 0}
-        lastPage={page == Math.ceil(currentProducts.length / 8) - 1}
+        firstPage={page === 0}
+        lastPage={page === Math.ceil(currentProducts.length / 8) - 1}
       />
       <Products products={pageProducts} />
     </>

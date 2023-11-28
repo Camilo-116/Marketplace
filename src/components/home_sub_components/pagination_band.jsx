@@ -1,11 +1,6 @@
-// import { useEffect } from "react";
+import React from "react";
 
 function PaginationBand(props) {
-  // useEffect(() => {
-  //   console.log(
-  //     `FirstPage bool is ${props.firstPage}. LastPage bool is ${props.lastPage}.`
-  //   );
-  // }, [props.firstPage, props.lastPage]);
 
   return (
     <>

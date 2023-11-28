@@ -54,8 +54,8 @@ body #root .search-bar .search-image {
   z-index: 2;
   top: -18.5vh;
   right: 40%;
-  height: 150px;
-  width: 300px;
+  height: 21.5vh;
+  width: 21.5vw;
 }
 body #root .search-bar .search-image img {
   width: 100%;
@@ -269,7 +269,7 @@ body #root .crud .crud-actions .add-product {
   box-sizing: border-box;
   flex: 1;
   flex-flow: column nowrap;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: left;
   margin-right: 1vw;
 }

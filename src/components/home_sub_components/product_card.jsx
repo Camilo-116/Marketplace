@@ -1,3 +1,5 @@
+import React from "react";
+
 function ProductCard(props) {
   return (
     <div className="product-card" key={props.index}>
@@ -17,7 +19,7 @@ function ProductCard(props) {
         <div className="product-pub">
           <div className="pub-info">
             <div className="p-pub-avatar">
-              <img src="./src/assets/avatar.jpg" alt="User avatar" />
+              <img src="./avatar.jpg" alt="User avatar" />
             </div>
             <div className="p-publisher">{props.product.publisher}</div>
           </div>

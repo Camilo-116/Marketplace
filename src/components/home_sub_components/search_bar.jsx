@@ -1,3 +1,4 @@
+import React from "react";
 
 function SearchBar(props) {
   const onSubmit = (e) => {
@@ -19,7 +20,7 @@ function SearchBar(props) {
   return (
     <div className="search-bar">
       <div className="search-image">
-        <img src="./src/assets/shopping.png" alt="" />
+        <img src="./shopping.png" alt="" />
       </div>
       <div className="search-container">
         <form onSubmit={handleSubmit}>

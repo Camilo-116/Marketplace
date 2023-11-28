@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { PrimeReactProvider } from "primereact/api";
@@ -48,7 +49,7 @@ function App() {
     });
   };
 
-  const [platonicAdmin, setPlatonicAdmin] = useState((localStorage.getItem('platonicAdmin') == 'true') || false);
+  const [platonicAdmin, setPlatonicAdmin] = useState((localStorage.getItem('platonicAdmin') === 'true') || false);
 
   const [showDialogs, setShowDialogs] = useState([false, false]);
 
@@ -66,7 +67,7 @@ function App() {
     if (localStorageProducts && localStorageProducts.length > 0) {
       setProducts(localStorageProducts);
     } else {
-      fetch("./src/assets/products.json")
+      fetch("products.json")
         .then((response) => response.json())
         .then((data) => {
           setProducts(data.products);
