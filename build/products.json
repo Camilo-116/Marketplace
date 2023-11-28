@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 100,
+      "publisher": "Angelina Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 200,
+      "publisher": "Robert Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 300,
+      "publisher": "Jhon Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "price": 400,
+      "publisher": "Rick Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "price": 500,
+      "publisher": "Christina Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "price": 600,
+      "publisher": "Mark Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "price": 700,
+      "publisher": "Jane Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "price": 800,
+      "publisher": "Jhon Doe",
+      "category": "Goods",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 9,
+      "name": "Product 9",
+      "price": 900,
+      "publisher": "Angelina Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 10,
+      "name": "Product 10",
+      "price": 1000,
+      "publisher": "Robert Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 11,
+      "name": "Product 11",
+      "price": 1100,
+      "publisher": "Jhon Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 12,
+      "name": "Product 12",
+      "price": 1200,
+      "publisher": "Rick Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 13,
+      "name": "Product 13",
+      "price": 1300,
+      "publisher": "Christina Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 14,
+      "name": "Product 14",
+      "price": 1400,
+      "publisher": "Mark Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 15,
+      "name": "Product 15",
+      "price": 1500,
+      "publisher": "Jane Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    },
+    {
+      "id": 16,
+      "name": "Product 16",
+      "price": 1600,
+      "publisher": "Jhon Doe",
+      "category": "Services",
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "image": "https://picsum.photos/240/160"
+    }
+  ]
+}
