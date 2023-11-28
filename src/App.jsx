@@ -3,9 +3,8 @@ import { useState, useEffect, useRef } from "react";
 import { PrimeReactProvider } from "primereact/api";
 import { ConfirmDialog, confirmDialog } from "primereact/confirmdialog";
 import { Toast } from "primereact/toast";
-import HomePage from "./components/HomePage";
+import HomePage from "./components/home";
 import AdminPage from "./components/admin_page";
-import Login from "./components/auth";
 
 function App() {
   const toast = useRef(null);
@@ -153,7 +152,7 @@ function App() {
               <AdminPage products={products} callback={updateProducts} />
             }
           />
-          <Route path="/login" element={<Login />} />
+          {/* <Route path="/login" element={<Login />} /> */}
         </Routes>
       </BrowserRouter>
     </PrimeReactProvider>
